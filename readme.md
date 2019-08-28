@@ -1,1 +1,1 @@
-Mapping of properties. For example fluid and temperature dependent properties. (VIZ)[https://madsholten.github.io/sparql-visualizer/?file=https:%2F%2Fraw.githubusercontent.com%2FMadsHolten%2FFlow-Control%2Fmaster%2FSPARQL-viz%2Fmapping.json]
+Mapping of properties. For example fluid and temperature dependent properties. [VIZ](https://madsholten.github.io/sparql-visualizer/?file=https:%2F%2Fraw.githubusercontent.com%2FMadsHolten%2FFlow-Control%2Fmaster%2FSPARQL-viz%2Fmapping.json)
