@@ -1,0 +1,53 @@
+@prefix inst: <http://localhost:3000/duplex/arch/flowSystems/> .
+@prefix fso: <https://w3id.org/flowSystem#> .
+@prefix props: <https://w3id.org/props#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-00069d30 fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074719 .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074719 fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074d77 .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074d77 fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074cdd .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074cdd fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074d75 .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074d75 fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074b8b .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074b8b fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074bbd .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074bbd fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074834 .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074834 fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-0007483c .
+inst:72022554-038a-4391-aa8b-1630c45adb51-0007483c fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074614 .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074614 fso:feeds inst:90153601-a4e5-4355-ba49-828db92c9fd8-0006fed7 .
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-0006fed7 fso:feeds inst:90153601-a4e5-4355-ba49-828db92c9fd8-00070104 .
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-00070104 fso:feeds inst:90153601-a4e5-4355-ba49-828db92c9fd8-00070284 .
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-00070284 fso:feeds inst:90153601-a4e5-4355-ba49-828db92c9fd8-000701af .
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-000701af fso:feeds inst:90bab795-fcb6-46ad-be16-03553d0e6e60-00073745 .
+inst:90bab795-fcb6-46ad-be16-03553d0e6e60-00073745 fso:feeds inst:33519fa0-87bd-482d-9869-449dc6c9b4dd-00070665 .
+inst:33519fa0-87bd-482d-9869-449dc6c9b4dd-00070665 fso:feeds inst:90bab795-fcb6-46ad-be16-03553d0e6e60-00073743 .
+inst:90bab795-fcb6-46ad-be16-03553d0e6e60-00073743 fso:feeds inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-0006a3e7 .
+inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-0006a3e7 fso:feeds inst:72022554-038a-4391-aa8b-1630c45adb51-00074ccb .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074ccb fso:feeds inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-0006a3d9 .
+inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-0006a3d9 fso:feeds inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-00069d30 .
+
+inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-00069d30 a fso:Plant .
+
+
+inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-0006a3d9 a fso:Pipe .
+inst:fa7ec1e7-d686-4fc4-9ef9-1f42b9cbd8fa-0006a3e7 a fso:Pipe .
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-00070104 a fso:Pipe .
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-000701af a fso:Pipe .
+inst:33519fa0-87bd-482d-9869-449dc6c9b4dd-00070665 a fso:Pipe .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074614 a fso:Pipe .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074719 a fso:Pipe .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074834 a fso:Pipe .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074b8b a fso:Pipe .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074cdd a fso:Pipe .
+
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-0006fed7 a fso:Heater .
+
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-00070284 a fso:Fitting .
+inst:90bab795-fcb6-46ad-be16-03553d0e6e60-00073743 a fso:Fitting .
+inst:90bab795-fcb6-46ad-be16-03553d0e6e60-00073745 a fso:Fitting .
+inst:72022554-038a-4391-aa8b-1630c45adb51-0007483c a fso:Fitting .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074bbd a fso:Fitting .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074ccb a fso:Fitting .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074d75 a fso:Fitting .
+inst:72022554-038a-4391-aa8b-1630c45adb51-00074d77 a fso:Fitting .
+.
+
+inst:90153601-a4e5-4355-ba49-828db92c9fd8-0006fed7 props:temperatureSetpoint "22"^^xsd:decimal .
